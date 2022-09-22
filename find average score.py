@@ -8,6 +8,7 @@ def your_grade(avg_score):
         grade= 'Fail'
     return grade
 t_subject=len(score)
+
 t_score= sum(score)
 av_score=t_score/t_subject
 print('তোমার এভারেজ স্কোর: ',av_score)
